@@ -19,3 +19,11 @@ print(estados_america[-1])
 #Añado varios
 estados_america.extend(["Arkansas","California","Colorado","Connecticut","Delaware"])
 print(estados_america[-1])
+
+#Creando una lista de listas
+fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+ 
+dirty_dozen = [fruits, vegetables]
+ 
+print(dirty_dozen[1][1]) # Kale (coge el segundo elemento de la segunda lista)
